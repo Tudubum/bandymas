@@ -7,30 +7,59 @@
     <title>Git ir GitHub ivadas</title>
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/main.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
 <body>
-    <main>
-        <section id="terminalKomandos">
-            <h1>Terminalo Komandos</h1>
-            <ul>
-                <li>ls / dir(window'sams) - parodo aplankalus ir failus dabartineje direktorijoje. (dar kazkas su ls -a)</li>
-                <li>cd - changeDirectory</li>
-                <li>TAB - skirtas uzpildyti terminalo komanda arba pateikti pasiulymus</li>
-                <li>CTRL C - atsaukia vykdoma veiksma / nutraukia komanda</li>
-                <li>vidurinis/desinys peles mygtukas - iklijuoja teksta i komandine eilute</li>
-                <li>cd .. - zingsnis atgal</li>
-                <li>ARROW UP/DOWN - vaiksciojimas per terminalo komandu istorijas </li>
-            </ul>
+    <header class="header">
+        <div class="logo left">
+            <i id="menu" class="material-icons">menu</i>
+            <img src="https://www.freecodecamp.org/news/content/images/2022/01/yt-logo.png">
+        </div>
+        <div class="search center">
+            <form action="">
+              <input type="text" placeholder="Search" />
+              <button><i class="material-icons">search</i></button>
+            </form>
+            <i class="material-icons mic">mic</i>
+        </div>
+        <div class="icons right">
+            <i class="material-icons">videocam</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons display-this">account_circle</i>
+          </div>
+         </header>
+    </header>
+      <main>
+          <div class="side-bar">.</div>
+          <div class="content">.</div>
+      </main>
+    <!--<main>
+        <section id="terminaloKomandos">
+          <h1>Terminalo Komandos</h1>
+          <ul>
+            <li>ls / dir - parodo aplankalus ir failus dabartinėje direktorijoje</li>
+            <li>cd - changeDirectory - keičia direktoriją</li>
+            <li>TAB - skirtas užpildyti terminalo komandą arba pateikti pasiūlymus</li>
+            <li>CTRL C - atšaukia vykdomą veiksmą / nutraukia komandą</li>
+            <li>vidurinis/dešinys pelės mygtukas - įklijuoja tekstą į komandinę eilutę</li>
+            <li>ARROW UP/DOWN - vaikščiojimas per terminalo komandų istoriją</li>
+          </ul>
         </section>
         <section id="gitKomandos">
-            <h1>Git Komandos</h1>
-            <ul>
-                <li>git init - inicializuoja git repozitorija</li>
-                <li>git status - parodo git repozitorijos statusa</li>
-                <li>git add - prideti failus prie paruostu commit'inimui failu</li>
-                <li>git commit -m "zinute" - sukuriama kodo versija su zinute</li>
-            </ul>
+          <h1>Git Komandos</h1>
+          <ul>
+            <li>git init - inicializuoja git repozitoriją</li>
+            <li>git status - parodo git repozitorijos statusą</li>
+            <li>git add ./*/file - pridėti failus prie paruoštų commit'inimui failų</li>
+            <li>git commit -m "zinute" - sukuriama kodo versija su zinute</li>
+            <li>git restore ./*/file - panaikina visus šios kodo versijos pakeitimus (kurie nėra add'inti) </li>
+            <li>git restore --staged ./*/file - išima nurodytą failą/us iš staged zonos</li>
+            <li>git push - nusiunčia naujus lokalius commit'us į serverį</li>
+            <li>git log - rodo git commit'ų istoriją</li>
+            <li>git checkout commitID - nukeliauja į nurodytą kodo versiją</li>
+          </ul>
         </section>
-    </main>
+      </main>-->
 </body>
 </html>
